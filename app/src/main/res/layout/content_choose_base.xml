@@ -8,4 +8,38 @@
     tools:context=".ChooseBaseActivity"
     tools:showIn="@layout/activity_choose_base">
 
+    <ImageButton
+        android:id="@+id/natureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/imageview_selector"
+        android:text="@string/natureButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nature" />
+
+    <ImageButton
+        android:id="@+id/milkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imageview_selector"
+        android:text="@string/milkButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/natureButton"
+        app:srcCompat="@drawable/milk" />
+
+    <ImageButton
+        android:id="@+id/vanillaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/imageview_selector"
+        android:text="@string/vanillaButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/milkButton"
+        app:srcCompat="@drawable/vanilla" />
 </android.support.constraint.ConstraintLayout>

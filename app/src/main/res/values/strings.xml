@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">HappyRolls</string>
-    <string name="title_activity_choose_base">ChooseBaseActivity</string>
+    <string name="chooseBaseToolbar">Choisis ta base de glace!</string>
+    <string name="natureButton">natureButton</string>
+    <string name="milkButton">milkButton</string>
+    <string name="vanillaButton">vanillaButton</string>
+    <string name="createIceButton">Creer Glace</string>
+    <string name="chooseToppingToolbar">Choisis tes ingrédients!</string>
 </resources>
